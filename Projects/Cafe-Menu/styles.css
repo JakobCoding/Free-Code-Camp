@@ -9,6 +9,8 @@ text-align: center;
     background-color: burlywood;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin-right: auto;
     margin-left: auto; /* when combining margin-left: auto with margin-right: auto, it will center the element, if a fixed width is defined */ 
 }   
