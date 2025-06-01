@@ -10,7 +10,7 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-.flavor, .dessert {
+.flavor, .dessert { /* how to style two classes within one selector */ 
     text-align: left;
     width: 75%;
 }
