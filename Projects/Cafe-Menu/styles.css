@@ -7,9 +7,11 @@ text-align: center;
 .menu {
     width: 80%;
     background-color: burlywood;
-    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: auto;
-}
+    margin-left: auto; /* when combining margin-left: auto with margin-right: auto, it will center the element, if a fixed width is defined */ 
+}   
 .flavor, .dessert { /* how to style two classes within one selector */ 
     text-align: left;
     width: 75%;
