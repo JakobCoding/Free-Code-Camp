@@ -25,3 +25,6 @@ text-align: center;
 .item p {
     display: inline-block;
 }
+h1, h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
