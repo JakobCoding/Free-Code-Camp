@@ -25,6 +25,9 @@ text-align: center;
 /* we can target and style multiple nested class elements with space  */
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 h1, h2 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
