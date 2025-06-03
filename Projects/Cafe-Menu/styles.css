@@ -50,3 +50,15 @@ footer {
 a {
     color: blue;
 }
+
+a:visited { /*this is a pseudo-selector */
+    color: blue;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a:active {
+    color: white;
+}
