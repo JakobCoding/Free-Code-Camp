@@ -6,6 +6,7 @@ body {
 p {
     margin-top: 5px;
     margin-bottom: 5px;
+ 
 }
 
 .business-card {
@@ -33,6 +34,7 @@ a {
 
 .full-name {
     font-size: 23px;
+    padding-top: 5px;
 }
 
 .designation {
@@ -41,4 +43,22 @@ a {
 
 .company {
     color: grey;
+    padding-bottom: 5px;
+}
+
+.email {
+    padding-top: 5px;
+}
+
+.phone {
+    padding-bottom: 10px;
+}
+
+.links {
+    margin-right: 10px;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
 }
