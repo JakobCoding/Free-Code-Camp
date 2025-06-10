@@ -1,3 +1,22 @@
 .sub-item-link {
     text-decoration: none;
+    color: blue
+}
+
+.sub-item-link:visited {
+    color: purple;
+}
+
+.sub-item-link:hover {
+    color: red;
+}
+
+.sub-item-link:focus {
+    outline: auto;
+    outline-color: orange;
+}
+
+#task1:focus {
+    outline: auto;
+    outline-color: black;
 }
