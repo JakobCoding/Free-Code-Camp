@@ -1,22 +1,30 @@
-.sub-item-link {
-    text-decoration: none;
-    color: blue
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.sub-item-link:visited {
-    color: purple;
+body {
+    margin-top: 50px;
+    background-color: rgb(255, 227, 206);
+    margin-bottom: 50px;
 }
 
-.sub-item-link:hover {
-    color: red;
-}
-
-.sub-item-link:focus {
-    outline: auto;
-    outline-color: orange;
-}
-
-#task1:focus {
-    outline: auto;
-    outline-color: black;
+.container {
+    margin-top: 15px;
+    width: 500px;
+    border: solid;
+    border-color: black;
+    max-width: 30%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: rgb(94, 94, 250);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
