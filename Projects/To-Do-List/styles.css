@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+    background-color: rgb(255, 227, 206);
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 15px;
+    width: 500px;
+    border: solid;
+    border-color: black;
+    max-width: 30%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: rgb(94, 94, 250);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#task10 {
+    color: white
+}
