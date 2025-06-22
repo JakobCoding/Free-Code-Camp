@@ -8,10 +8,12 @@
 
 body {
     text-align: center;
+    margin: 20px;
 }
 
 button {
     margin-top: 15px;
+    margin-bottom: 15px;
     width: 120px;
     padding: 10px;
     background-color: blue;
@@ -19,4 +21,11 @@ button {
     font-family: Roboto, sans-serif;
     border-radius: 10px;
     border: none;
+}
+
+.input {
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
 }
