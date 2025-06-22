@@ -24,7 +24,23 @@ function getLoanMessage(annualIncome, creditScore) {
   } else {
     return "You don't qualify for any loans."
   }
-  
+}
+
+function convertInput() {
+    // STEP 1: Get the value entered in the annual income input field
+    const incomeInput = document.getElementById("income");
+     // STEP 2: Get the value entered in the credit score input field
+    const creditInput = document.getElementById("credit-score");
+    // STEP 3: Convert the input values from strings to numbers for accurate comparison
+    const annualIncome = parseInt(incomeInput.value);
+    const creditScore = parseInt(creditInput.value);
+    // STEP 4: Call your existing getLoanMessage function with the user's input
+  const loanMessage = getLoanMessage(annualIncome, creditScore);
+  // STEP 5: Grab the paragraph where the result will be displayed
+  const resultMessage = document.getElementById("check-el");
+  // STEP 6: Update the paragraph's text content with the loan result
+  const displayResult = resultMessage.textContent = "Type of loan: " + loanMessage;
+
 }
 
 

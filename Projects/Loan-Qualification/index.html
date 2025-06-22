@@ -8,18 +8,17 @@
 </head>
 <body>
     <Section>
-        <input type="text" for="annual-income" id="annual-income" class="input" placeholder="Enter annual income">
+        <input type="text" for="annual-income" id="income" class="input" placeholder="Enter annual income">
     </Section>
 
     <section>  
         <input type="text" for="credit-score" id="credit-score" class="input" placeholder="Enter credit score" required> 
     </section>
 
- <div>
-    <button onclick="getLoanMessage()">Loan Qualifier</button>
-    <p id="loan-msg-el">Result: </p>
+<div>
+    <button onclick="convertInput()">Check Loan</button>
+    <p id="check-el">Can you get a loan: </p>
 </div>
-
 <script src="index.js"></script>
 </body>
 </html>
