@@ -43,5 +43,17 @@ function convertInput() {
 
 }
 
+function resetInput() {
+    const resetIncome = document.getElementById("income");
+    const resetCredit = document.getElementById("credit-score");
+    const resultIncomeReset = resetIncome.value = "";
+    const resultCreditReset = resetCredit.value = "";
+    const displayResult = document.getElementById("check-el");
+    const resetDisplayResult = displayResult.textContent = "Do you qualify:";
+}
+
+
+
+
 
 getLoanMessage(annualIncome, creditScore);
