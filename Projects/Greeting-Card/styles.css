@@ -23,7 +23,7 @@ body {
     transform: scale(1.1);
 }
 
-h1::before {
-    content: "🥳 ";
+ h1::before, h1::after { /*pseudo-elements added to the page, they must be seperated by a comma. */
+    content: " 🥳 ";
 }
 
