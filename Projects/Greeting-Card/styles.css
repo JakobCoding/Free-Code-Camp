@@ -15,9 +15,15 @@ body {
     margin-right: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px gray;
+    transition: transform 0.3s, background-color 0.3s ease;
 }
 
 .card:hover {
     background-color: khaki;
     transform: scale(1.1);
 }
+
+h1::before {
+    content: "🥳 ";
+}
+
