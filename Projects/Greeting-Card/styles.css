@@ -27,3 +27,8 @@ body {
     content: " 🥳 ";
 }
 
+.message {
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 20px;
+}
