@@ -32,3 +32,9 @@ body {
     color: gray;
     margin-bottom: 20px;
 }
+
+.card-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
