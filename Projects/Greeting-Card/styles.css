@@ -16,3 +16,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px gray;
 }
+
+.card:hover {
+    background-color: khaki;
+}
