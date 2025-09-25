@@ -61,9 +61,9 @@ body {
     outline: 2px solid yellow;
 }
 
-/* .card-links a:visited {
-    color: crimson;
-} */
+.card-links a:visited {
+    color: yellow;
+}
 
 section {
     margin: 20px auto;
