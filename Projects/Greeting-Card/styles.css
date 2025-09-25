@@ -61,9 +61,9 @@ body {
     outline: 2px solid yellow;
 }
 
-.card-links a:visited {
+/* .card-links a:visited {
     color: crimson;
-}
+} */
 
 section {
     margin: 20px auto;
@@ -71,4 +71,8 @@ section {
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
+}
+
+section:hover {
+    transform: skewX(10deg);
 }
