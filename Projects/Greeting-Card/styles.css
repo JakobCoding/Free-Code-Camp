@@ -66,11 +66,16 @@ body {
 }
 
 section {
+    display: none;
     margin: 20px auto;
     max-width: 600px;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
+}
+
+section:target {
+    display: block;
 }
 
 section:hover {
