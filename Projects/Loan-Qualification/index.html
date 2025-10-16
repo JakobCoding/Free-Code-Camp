@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loan Qualifier</title>
+</head>
+<body>
+    <Section>
+        <input type="text" for="annual-income" id="income" class="input" placeholder="Enter annual income">
+    </Section>
+
+    <section>  
+        <input type="text" for="credit-score" id="credit-score" class="input" placeholder="Enter credit score" required> 
+    </section>
+
+<div>
+    <button onclick="convertInput()">Check Loan</button>
+    <p id="check-el">Can you get a loan: </p>
+    <button onclick="resetInput()">Reset</button>
+    <p id="reset-el"></p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
