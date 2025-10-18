@@ -1,0 +1,78 @@
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1, h2, p {
+text-align: center;
+}
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    padding: 20px 20px;
+    margin-right: auto;
+    margin-left: auto; /* when combining margin-left: auto with margin-right: auto, it will center the element, if a fixed width is defined */ 
+}   
+.flavor, .dessert { /* how to style two classes within one selector */ 
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%; 
+}
+/* we can target and style multiple nested class elements with space  */
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+h1, h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER  */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: blue;
+}
+
+a:visited { /*this is a pseudo-selector */
+    color: blue;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a:active {
+    color: white;
+}
+.address {
+    margin-bottom: 5px;
+}
+img {
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
